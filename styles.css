@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+    font-family: arial;
+}
+
+.Main-Container{
+    background-color: beige;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.red{
+    width: 40%;
+    height: 400px;
+
+    background-color: red;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+}
+.red p{
+    font-size: 15px;
+}
+
+.green{
+    width: 40%;
+    height: 400px;
+
+    background-color: green;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+}
+.green li{
+    font-size: 15px;
+    text-align: left;
+}
+
+.blue{
+    width: 40%;
+    height: 400px;
+
+    background-color: blue;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+}
+.blue li{
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.orange{
+    width: 40%;
+    height: 400px;
+
+    background-color: orangered;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+}
+.orange p{
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.yellow{
+    width: 40%;
+    height: 400px;
+
+    background-color: yellow;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+}
+.yellow li{
+    font-size: 20px;
+    text-align: left;
+}
+
+.purple{
+    width: 40%;
+    height: 400px;
+
+    background-color: purple;
+
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 30px; 
+
+    align-self: flex-end;
+}
+.purple p{
+    font-size: 15px;
+    text-align: left;
+}
+
+@media(max-width: 1030px){
+    .Main-Container{
+        background-color: beige;
+    }
+
+    .red{
+        flex-direction: column;
+    }
+
+    .green{
+        flex-direction: column;
+    }
+
+    .blue{
+        flex-direction: column;
+    }
+
+    .orange{
+        flex-direction: column;
+    }
+
+    .yellow{
+        flex-direction: column;
+    }
+
+    .pruple{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
